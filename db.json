@@ -1,5 +1,27 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed network card on server 007",
+      "attention": true,
+      "tech": "Travis Bean",
+      "date": "2021-08-11T23:45:06.876Z"
+    },
+    {
+      "id": 2,
+      "message": "Hot swap needed on cluster 4 -- completed",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-08-11T22:35:11.782Z"
+    },
+    {
+      "message": "Urine is stored in th eballs",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2021-08-11T22:13:23.685Z",
+      "id": 3
+    }
+  ],
   "techs": [
     {
       "id": 1,
@@ -7,14 +29,14 @@
       "lastName": "Doe"
     },
     {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
+      "firstName": "Travis",
+      "lastName": "Bean",
+      "id": 4
     },
     {
-      "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
+      "firstName": "Carson",
+      "lastName": "Draper",
+      "id": 5
     }
   ]
 }
